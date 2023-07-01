@@ -1,1 +1,1 @@
-# blink led every second
+# blink led every second normal mode

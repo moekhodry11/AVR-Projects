@@ -28,6 +28,7 @@ void delay_ms(uint16_t milliseconds) {
 }
 
 /* Functions Declaration */
+void sevo(u8 x);
 
 int main(void) {
 
@@ -46,14 +47,14 @@ int main(void) {
 	while (1) {
 
 		/* duty cycle of servo motor form 0 to 2ms */
-		for (int i = 1000; i < 2000; i++) {
-			TIMER_voidTimer1ASetCompareValue(i);
+		for (int i = 0; i <= 180; i++) {
+			sevo(i);
 			_delay_us(500);
 		}
 		delay_ms(1000);
 
-		for (int i = 1999; i >= 999; i--) {
-			TIMER_voidTimer1ASetCompareValue(i);
+		for (int i = 180; i >= 0; i--) {
+			sevo(i);
 			_delay_us(500);
 		}
 		delay_ms(1000);
@@ -62,4 +63,11 @@ int main(void) {
 	}
 
 	return 0;
+}
+
+
+/* servo map function */
+void sevo(u8 x) {//input is and angel form 0 to 180 and output is scale from 999 to 1999
+  f32 mapped= (x - 0) * (1999.0 - 999.0) / (180.0 - 0) + 999.0;
+  TIMER_voidTimer1ASetCompareValue((u16)mapped);
 }

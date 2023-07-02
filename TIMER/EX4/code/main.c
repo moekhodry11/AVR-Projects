@@ -46,13 +46,13 @@ int main(void) {
 	while (1) {
 
 		/* duty cycle of servo motor form 0 to 2ms */
-		for (int i = 0; i < 2000; i++) {
+		for (int i = 1000; i < 2000; i++) {
 			TIMER_voidTimer1ASetCompareValue(i);
 			_delay_us(500);
 		}
 		delay_ms(1000);
 
-		for (int i = 1999; i >= 0; i--) {
+		for (int i = 1999; i >= 999; i--) {
 			TIMER_voidTimer1ASetCompareValue(i);
 			_delay_us(500);
 		}

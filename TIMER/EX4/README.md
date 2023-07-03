@@ -11,3 +11,9 @@
 <div align="center"> 
   <img src="https://github.com/moekhodry11/AVR-Assignments/assets/86708003/f57f58e4-a001-4839-a1e0-86bc79ad22e9" alt="">
 </div>
+
+<br>
+<h1>Servo Mapping<h1>
+<div align="center"> 
+  <img src="https://github.com/moekhodry11/AVR-Assignments/assets/86708003/01b66fcf-6dcc-4b9e-865b-88ec5a39dd69" alt="">
+</div>

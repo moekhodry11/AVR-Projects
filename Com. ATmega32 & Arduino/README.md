@@ -11,7 +11,8 @@ In this project, two key communication protocols are implemented:
 This project exemplifies the integration of multiple communication protocols to enable data transfer between microcontrollers and peripherals.
 
 ![Simulation picture](https://github.com/moekhodry11/AVR-Projects/assets/86708003/77ec3089-321a-4385-bc8a-2807935f7a18)
-![image](https://github.com/moekhodry11/AVR-Projects/assets/86708003/1276942f-cad2-4dd7-870e-7352e2cfb530)
+![image](https://github.com/moekhodry11/AVR-Projects/assets/86708003/953c4994-468e-46c2-9001-2b9f757f2f15)
+
 
 
 #### You can watch HW video [here](https://drive.google.com/file/d/18xMdNU_5WgsJFeswIda6HptepBNdNLRS/view?usp=sharing)
